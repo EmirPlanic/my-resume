@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<!--added in left-ul class padding bottom,and delete display inline block,added text transform to upper case in class text,changed font family in class text,changed font family 
+to sans serif in class skills-h2,changed property left to 50px in class skill-h2,added background linear gradient to body element,changed few more values on border bottom-->
+<style>
+
+    body{
+        background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+    margin: 3vh;
+    padding: -1;
+    }
+    
+    
+    .block{
+        display: flex;
+        height: 100vh;
+    
+    }
+    .left-block{
+        background-color: rgb(149, 150, 150);
+        width: 25%;
+        height: 100%;
+    }
+    
+    .right-block{
+        background-color: rgb(255, 255, 255) ;
+        width: 80%;
+        height: 100%;
+        
+    }
+    
+  
+
+    .my-picture{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+     
+    }
+
+    .icons{
+        width: 5vh;
+        height: auto;
+        border-radius: 50%;
+        float: left;
+    }
+    .icons-gmail{
+        width: 2vh;
+        height: auto;
+        border-radius: 50%;
+        
+    }
+
+    .text{
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: large;
+        border-top: 1px black;
+        border-bottom: 1px solid black;
+        padding: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+       
+    }
+    .for-li{
+        
+        text-decoration: none;
+        list-style: none;
+
+        
+    }
+    .left-ul{
+        padding: 1rem;
+        border-bottom: 1px solid black;
+        list-style: none;
+        
+    }
+
+    h1{
+        font-size: large;
+        font-weight: bold;
+        position: relative;
+        left: 8vh;
+        top: 4vh;
+    }
+
+    .about-me{
+        margin: 10px 0;
+        border-top: 1px black;
+     
+    }
+
+    .skills-h2{
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        top: 80px;
+        border-top: 1px rgb(49, 49, 47);
+        border-bottom: 1px solid rgb(15, 15, 14);
+        padding: 1rem;
+        font-family: sans-serif;
+        text-decoration: none;
+        border-bottom-right-radius: 800px;
+    
+    }
+
+  
+    </style>
+    <head>
+        <title>Potrfolio</title>
+        <meta charset="UTF-8">
+    </head>
+    
+    <body>
+    
+    <div class="block">
+        <div class="left-block">
+            <img src ="EmirPlanicPicture.png" class="my-picture">
+           <p class="text"> Emir Planic</p>
+            <p class="text"> 07.02.1999</p>
+            <p class="text"> Bosnia and Herzegovina (Zivinice) </p>
+            <ul class="left-ul">
+                <li class="for-li">
+                    Linkedin: click on the icon ->
+                    <a href="https://www.linkedin.com/in/emir-planic-92765620a/" target="_blank">
+                    <img src="linkedin.png"  class="icons-gmail">
+                </a>
+                </li>
+                <li class="for-li">
+                 
+                    GitHub: click on the icon ->
+                    <a href="https://github.com/EmirPlanic"  target="_blank">
+                          
+                    <img src="github.png"  class="icons-gmail">
+                </a>
+                </li class="for-li">
+                <li>
+                    <a> 
+                         Email addres : 
+                    <img src="gmail.png"  class="icons-gmail">
+                   emirplanic1@gmail.com 
+                </a>
+                </li>
+                
+            </ul>
+    
+    
+        </div>
+
+        <div class="right-block">
+
+            <h1 class="skills-h2" >ABOUT ME :
+                <p class="about-me">
+                    My name is Emir Planic.I'm 23 years old from Bosnia and Herzegovina.I'm currently learning web development.
+
+                </p>
+                <p class="about-me">I am determined,and a hard working individual
+                    who is ready for new challenges.I work great in high paced enviroment.</p>
+
+            </h1>
+
+            <h2 class="skills-h2" > SKILLS: 
+                <ul>
+                    <li>Java(Procedural programming,OOP)</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>English Language</li>
+
+                </ul>
+
+
+            </h2>
+
+            <h2 class="skills-h2"> EDUCATION: 
+                <p>Internacionalna poslovno-informaciona akademija</p>
+                <ul >
+                    <li>City : Tuzla</li>
+                    <li>Bosnia and Herzegovina, 75000</li>
+
+                </ul>
+
+
+            </h2>
+
+            <h2 class="skills-h2" > PERSONAL INTERESTS: 
+                <ul >
+                    <li>Rock Climbing</li>
+                    <li>Gym</li>
+                    <li>Programming</li>
+
+                </ul>
+
+
+            </h2>
+            <h2 class="skills-h2"> MY PROJECTS ON GITHUB : 
+                <ul >
+                    <a href ="https://github.com/EmirPlanic/provjereno.ba-2.0" target="_blank"><li>My project from Hackathon 2021</li> </a>
+                    <a href ="https://github.com/EmirPlanic/ATM"  target="_blank"><li>ATM in JAVA</li> </a>
+                    <a href ="https://github.com/EmirPlanic/StudentDataBaseApp"  target="_blank"><li>Student Data Base in JAVA</li> </a>
+
+                </ul>
+
+
+            </h2>
+
+        
+
+        </div>
+        
+    </div>
+    </body>
+
+
+</html>
